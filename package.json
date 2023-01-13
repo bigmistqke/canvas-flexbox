@@ -1,0 +1,28 @@
+{
+  "name": "canvas-flexbox",
+  "version": "1.0.0",
+  "description": "基于 Yoga-layout 实现的 Canvas Flex 布局",
+  "main": "index.html",
+  "scripts": {
+    "start": "parcel index.html --open",
+    "build": "parcel build index.html"
+  },
+  "dependencies": {
+    "@types/react-reconciler": "0.26.3",
+    "@types/yoga-layout": "1.9.4",
+    "parcel-bundler": "^1.6.1",
+    "react-reconciler": "0.26.2",
+    "yoga-layout": "1.9.3"
+  },
+  "devDependencies": {
+    "typescript": "4.2.3"
+  },
+  "resolutions": {
+    "@babel/preset-env": "7.13.8"
+  },
+  "keywords": [
+    "canvas",
+    "yoga-layout",
+    "flexbox"
+  ]
+}
